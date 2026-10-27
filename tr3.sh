@@ -1,0 +1,6 @@
+#!/bin/bash
+
+FILE_PATH="input3.txt"
+
+i Feed the file into the tr command using redirection
+tr -s ' ' < "$FILE_PATH"
